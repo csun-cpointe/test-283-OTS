@@ -3,5 +3,3 @@ spec:
     valueFiles:
       - values.yaml
       - values-ci.yaml
-  syncPolicy:
-    automated: {}
