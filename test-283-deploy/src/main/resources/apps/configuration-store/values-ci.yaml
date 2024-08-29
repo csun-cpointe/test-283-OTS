@@ -10,9 +10,7 @@ aissemble-configuration-store-chart:
     deployment:
       image:
         imagePullPolicy: IfNotPresent
-    service:
-      type: LoadBalancer
 
   configurationVolume:
     storageType: "local"
-    volumePathOnNode: "/Users/csun/bah/tests/src/main/resources/configurations"
+    volumePathOnNode: "/Users/csun/bah/tests/test-283-OTS/src/main/resources/configurations"

@@ -18,7 +18,6 @@ aissemble-configuration-store-chart:
         - name: configurations
           persistentVolumeClaim:
             claimName: configuration-store-claim
-          readOnly: true
       supplementalVolumeMounts:
         - name: configurations
           mountPath: "/configurations"
