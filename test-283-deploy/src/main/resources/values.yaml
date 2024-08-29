@@ -1,0 +1,12 @@
+spec:
+  destination:
+    server: https://kubernetes.default.svc
+  targetRevision: main
+  repo: https://github.com/csun-cpointe/test-283
+  helm:
+    valueFiles:
+      - values.yaml
+
+global:
+  imagePullPolicy: Always
+  dockerRepo: ghcr.io/
